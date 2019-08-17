@@ -1,0 +1,23 @@
+{
+  "name": "organizr",
+  "version": "1.0.0",
+  "description": "A simple tool to organize photo and video directories.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatheusMK3/organizr.git"
+  },
+  "author": "Matheus Pratta",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/MatheusMK3/organizr/issues"
+  },
+  "homepage": "https://github.com/MatheusMK3/organizr#readme",
+  "dependencies": {
+    "cli-table": "^0.3.1",
+    "dateformat": "^3.0.3"
+  }
+}
