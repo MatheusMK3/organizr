@@ -1,6 +1,9 @@
 # Organizr
 🗂️ Simple Node.js tool to organize folders based on files based on modified date.
 
+## Installation
+Simply run ``npm install`` to install required libraries and you're ready to go.
+
 ## Usage
 By default, running the script will only give you a preview of what is going to be changed. To actually move any files, run the script with the 'move' argument.
 
