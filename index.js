@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 // Let's use a Promise-based fs implementation
 const fs = require('fs').promises
 const fsRaw = require('fs')
