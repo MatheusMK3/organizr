@@ -171,7 +171,7 @@ const main = async function main() {
           throw 'Not a directory'
 
         // Moves the file
-        file.getFilePaths().map(filePath => fsRaw.renameSync(filePath, path.join(targetDirectory, filePath.split('/').reverse()[0])))
+        file.getFilePaths().map(filePath => fsRaw.renameSync(filePath, path.join(targetDirectory, filePath.split(path.sep).reverse()[0])))
 
         // Sets status to moved
         status = true
