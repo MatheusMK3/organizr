@@ -1,6 +1,8 @@
 # Organizr
 🗂️ Simple Node.js tool to organize folders based on files based on modified date.
 
+**Warning:** This project is no longer maintained, please use [AV Organizer](https://github.com/matpratta/av-organizer) instead.
+
 ## Installation
 Simply run ``npm install`` and then ``npm link`` to install required libraries and you're ready to go.
 
